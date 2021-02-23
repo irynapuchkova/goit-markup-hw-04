@@ -117,8 +117,8 @@ img {
 
 .header {
   border-bottom: 1px solid var(--header-border);
-  padding-top: 23px;
-  padding-bottom: 23px;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 
 .nav {
@@ -169,6 +169,8 @@ img {
   margin-left: auto;
   align-items: center;
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 
   font-weight: 500;
   font-size: 14px;
@@ -238,6 +240,10 @@ img {
 
 .hero-btn {
   padding: 10px 31px;
+
+  background-color: var(--accent-color);
+  color: var(--bg-primary-color);
+  /* outline: none; */
 }
 
 /*identity section*/
@@ -396,7 +402,7 @@ img {
 }
 
 .social-link {
-  color: var(--text--color);
+  color: var(--consumer-border);
 }
 
 .social-item > .social-link:hover,
@@ -440,7 +446,7 @@ img {
 }
 
 .consumer-link {
-  color: var(--text--color);
+  color: var(--consumer-border);
 }
 
 .consumer-item > .consumer-link:hover,
