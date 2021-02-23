@@ -10,38 +10,58 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header class="header section">
+    <header class="header">
       <div class="container">
         <nav class="nav">
           <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
-          <ul class="site-nav items">
+
+          <ul class="nav-site items">
             <li class="nav-list unit">
-              <a href="./index.html" class="link">Студия</a>
+              <a class="link" href="./index.html">Студия</a>
             </li>
+
             <li class="nav-list unit">
-              <a href="./portfolio.html" class="link current">Портфолио</a>
+              <a class="link current" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="nav-list unit"><a href="" class="link">Контакты</a></li>
+
+            <li class="nav-list unit">
+              <a class="link" href="">Контакты</a>
+            </li>
           </ul>
-          <div class="contact-nav">
-            <a href="mailto:info@devstudio.com" class="link unit"
-              >info@devstudio.com</a
-            >
-            <a href="tel:+380961111111" class="link unit">+38 096 111 11 11</a>
-          </div>
+
+          <ul class="nav-contact">
+            <li class="unit">
+              <a class="link" href="mailto:info@devstudio.com">
+                <svg class="mail" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+
+            <li class="unit">
+              <a class="link" href="tel:+380961111111">
+                <svg class="tel" width="10" height="16">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
-
     <main>
       <!-- Portfolio -->
+
       <h1 class="section-title visually-hidden">Our Projects</h1>
+
       <!-- Portfolio Filters -->
+
       <section class="filter">
         <div class="container">
           <ul class="filter-btn items">
@@ -62,7 +82,7 @@
 
           <ul class="filter items">
             <li class="unit">
-              <a href="" class="link">
+              <a class="link" href="">
                 <img
                   src="images/portfolio/web_tehnokrat_new.jpg"
                   alt="Web-site"
@@ -75,7 +95,7 @@
             </li>
 
             <li class="unit">
-              <a href="" class="link">
+              <a class="link" href="">
                 <img
                   src="images/portfolio/design_poster.jpg"
                   alt="Poster design"
@@ -91,7 +111,7 @@
             </li>
 
             <li class="unit">
-              <a href="" class="link">
+              <a class="link" href="">
                 <img
                   src="images/portfolio/app_restaurant.jpg"
                   alt="Restaurant App"
@@ -105,7 +125,7 @@
             </li>
 
             <li class="unit">
-              <a href="" class="link">
+              <a class="link" href="">
                 <img
                   src="images/portfolio/marketing_prj_prime.jpg"
                   alt="Project marketing"
@@ -119,7 +139,7 @@
             </li>
 
             <li class="unit">
-              <a href="" class="link">
+              <a class="link" href="">
                 <img
                   src="images/portfolio/app_prj_boxes.jpg"
                   alt="Boxes App"
@@ -133,7 +153,7 @@
             </li>
 
             <li class="unit">
-              <a href="" class="link">
+              <a class="link" href="">
                 <img
                   src="images/portfolio/web_site_inspiration.jpg"
                   alt="Web-site"
@@ -149,7 +169,7 @@
             </li>
 
             <li class="unit">
-              <a href="" class="link">
+              <a class="link" href="">
                 <img
                   src="images/portfolio/design_magazine.jpg"
                   alt="Magazine design"
@@ -165,7 +185,7 @@
             </li>
 
             <li class="unit">
-              <a href="" class="link">
+              <a class="link" href="">
                 <img
                   src="images/portfolio/marketing_prj_lab.jpg"
                   alt="Lab marketing"
@@ -179,7 +199,7 @@
             </li>
 
             <li class="unit">
-              <a href="" class="link">
+              <a class="link" href="">
                 <img
                   src="images/portfolio/app_growing_business.jpg"
                   alt="Growing Business App"
@@ -196,18 +216,58 @@
       </section>
     </main>
 
-    <footer class="footer section">
+    <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
-        <address class="footer-address">
-          <p class="footer-rout unit">г. Киев, пр-т Леси Украинки, 26</p>
-          <a href="mailto:info@example.com" class="footer-mail link unit"
-            >info@example.com</a
-          >
-          <a href="tel:+380991111111" class="footer-tel link unit"
-            >+38 099 111 11 11</a
-          >
-        </address>
+        <div class="footer-contacts">
+          <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
+          <address class="footer-address">
+            <p class="footer-rout unit">г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@example.com" class="footer-mail link unit"
+              >info@example.com</a
+            >
+            <a href="tel:+380991111111" class="footer-tel link unit"
+              >+38 099 111 11 11</a
+            >
+          </address>
+        </div>
+
+        <div class="join">
+          <h3 class="join-title">присоединяйтесь</h3>
+
+          <ul class="social-items">
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
