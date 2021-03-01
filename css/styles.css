@@ -62,7 +62,7 @@ body {
 img {
   display: block;
   max-width: 100%;
-  height: outo;
+  height: auto;
 }
 
 /* button */
@@ -235,7 +235,7 @@ img {
   color: var(--bg-primary-color);
 
   width: 696px;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 30px;
 }
 
 .hero-btn {
@@ -243,6 +243,7 @@ img {
 
   background-color: var(--accent-color);
   color: var(--bg-primary-color);
+
   /* outline: none; */
 }
 
